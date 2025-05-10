@@ -1,0 +1,63 @@
+.nav-link {
+  font-family: 'MedievalSharp', cursive;
+  color: #E6F0F8 !important;
+}
+
+.bg-img {
+  background-image: url('./media/bg-img.png');
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 100vh;
+  background-color: #445566;
+}
+
+.navbar {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+
+
+@media (max-width: 992px) {
+  #navbarNav {
+    position: absolute;
+    right: -25px;
+    top: 100%;
+    background-color: #445566;
+    padding: 1rem;
+    width: fit-content;
+    z-index: 2;
+  }
+}
+
+
+.navBook:hover img {
+  transform: scale(1.5);
+  filter: drop-shadow(0 0 6px #c3f4ff);
+}
+
+.nav-link:hover {
+  color: #ffD166 !important;
+  filter: drop-shadow(0 0 6px #c3f4ff);
+}
+
+/* colors:*/
+  .blue-gray {
+    background-color: #445566 !important;
+  }
+  .frost-white {
+    background-color: #e6f0f8 !important;
+  }
+  .frost-white-txt {
+    color: #e6f0f8 !important; 
+  }
+
+  .light-gold {
+    background-color: #ffd166;
+  }
+
+  /* Fonts: */
+  .medieval-font {
+    font-family: 'MedievalSharp', cursive;
+  }

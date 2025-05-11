@@ -17,7 +17,56 @@
   padding-bottom: 0rem !important;
 }
 
+.hero-bg {
+  background-image: url('./media/castle-bg.jpg');
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 
+.spell-book {
+  margin-top: -60px;
+  margin-right: 25px;
+  cursor: pointer;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.bigO-img {
+  margin-top: -55px;
+  margin-right: -20px;
+}
+
+.coupon-bg {
+  background-image: url('./media/parchment-scroll-bg.png'); /* or use solid color fallback */
+  background-color: #C9A66B; /* aged gold as backup */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 5px solid #8B5A2B;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  font-family: 'MedievalSharp', cursive;
+}
+
+.coupon-title {
+  color: #FFD166;
+}
+
+.coupon-text {
+  color: #FAF3DD;
+}
+
+#couponCode strong {
+  font-size: 1.5rem;
+}
+
+.spell-book:hover {
+  transform: scale(1.06);
+  filter: drop-shadow(0 0 12px #ffd166);
+}
 
 @media (max-width: 992px) {
   #navbarNav {
@@ -31,9 +80,8 @@
   }
 }
 
-
 .navBook:hover img {
-  transform: scale(1.5);
+  transform: scale(1.2);
   filter: drop-shadow(0 0 6px #c3f4ff);
 }
 
@@ -57,7 +105,30 @@
     background-color: #ffd166;
   }
 
+  .wine-bg {
+    background-color: #5C2A44
+  }
+
+  .wine-color {
+    color: #5C2A44;
+  }
+
+  .parchment-bg {
+  background-color: #C9A66B;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 5px solid #8B5A2B;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  font-family: 'MedievalSharp', cursive;
+  }
+
   /* Fonts: */
   .medieval-font {
     font-family: 'MedievalSharp', cursive;
+  }
+
+  .big-letter {
+    font-family: 'UnifrakturCook', cursive;
   }

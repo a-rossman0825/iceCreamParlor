@@ -4,4 +4,5 @@ CodeWorks Ice Cream Parlor lab - creating a functional storefront website with H
 
 **Image Credits**
 
-IceCream Dragon by @thelurkingquirk on redbubble
+hero-bg by Allison Saeng
+tavern img by @pascalbernardon via unsplash

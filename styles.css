@@ -40,8 +40,8 @@
 }
 
 .coupon-bg {
-  background-image: url('./media/parchment-scroll-bg.png'); /* or use solid color fallback */
-  background-color: #C9A66B; /* aged gold as backup */
+  background-image: url('./media/parchment-scroll-bg.png'); 
+  background-color: #C9A66B;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -49,14 +49,6 @@
   border-radius: 16px;
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
   font-family: 'MedievalSharp', cursive;
-}
-
-.coupon-title {
-  color: #FFD166;
-}
-
-.coupon-text {
-  color: #FAF3DD;
 }
 
 #couponCode strong {
@@ -104,6 +96,10 @@
   .light-gold {
     background-color: #ffd166;
   }
+
+  .light-gold-text {
+  color: #FFD166 !important;
+}
 
   .wine-bg {
     background-color: #5C2A44

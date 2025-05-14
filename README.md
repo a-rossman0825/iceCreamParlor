@@ -1,6 +1,9 @@
 # iceCreamParlor
 CodeWorks Ice Cream Parlor lab - creating a functional storefront website with HTML, CSS, &amp; JavaScript
 
+**Click The summon book to go to the storefront!**
+
+
 
 **Image Credits**
 

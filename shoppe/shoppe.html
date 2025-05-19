@@ -111,6 +111,7 @@
               <button class="btn btn-primary mt-2 w-100" onclick="addToCart('bowl')">Add to Satchel</button>
             </div>
           </div>
+          <!--Container 2-->
           <div class="col-12 col-md-6 mb-4">
             <div class="p-3 border rounded h-100 d-flex flex-column icecream-card">
               <img src="../media/waffle.avif" alt="Waffle Cone" class="img-fluid mb-2" style="height: 200px; object-fit: cover;">
@@ -119,6 +120,7 @@
               <button class="btn btn-primary mt-2 w-100" onclick="addToCart('waffle cone')">Add to Satchel</button>
             </div>
           </div>
+          <!--Container 3-->
           <div class="col-12 col-md-6 mb-4">
             <div class="p-3 border rounded h-100 d-flex flex-column icecream-card">
               <img src="../media/sprinkle-bowl.jpg" alt="Bowl made of Sprinkles" class="img-fluid mb-2" style="height: 200px; object-fit: cover;">
@@ -130,18 +132,21 @@
         </div>
       </div>
 
-      <!-- RIGHT: Cart Sidebar -->
+      <!--Shopping Cart-->
       <div class="col-12 col-lg-4 mt-4 mt-lg-0">
         <div class="p-3 border rounded bg-light">
           <h3 class="text-center medieval-font">Inventory</h3>
           <hr>
-          <ul id="cart-items" class="mb-3 shopping-cart">
-            <!--Cart Items Go Here <li></li>-->
-          </ul>
+          <div id="cart-items" class="mb-3 shopping-cart">
+            <!--Cart Items Go Here-->
+          </div>
+          <div id="cart-total" class="mb-3 shopping-cart">
+            <!--Total Price Goes Here-->
+          </div>
           <hr>
           <form>
             <div class="form-group">
-              <textarea class="form-control medieval-font" id="exampleFormControlTextarea1" rows="1" placeholder="Your Sacred Discount Spell..."></textarea>
+              <textarea class="form-control medieval-font" id="coupon-form" rows="1" placeholder="Your Sacred Discount Spell..."></textarea>
             </div>
           </form>
           <button class="btn btn-primary mt-2 w-100">Claim Your Spoils</button>

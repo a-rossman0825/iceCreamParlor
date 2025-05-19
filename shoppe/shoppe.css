@@ -11,6 +11,35 @@
   max-height: 3rem;
 }
 
+.icecream-card {
+  background-color: #fff8e1;
+  border: 2px solid #bfa36f;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.icecream-card:hover {
+  transform: scale(1.01);
+}
+
+.icecream-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.btn {
+  background-color: #704214;
+  color: #fff8e1;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-top: 0.75rem;
+  width: 100%;
+  font-weight: bold;
+}
+
 /* colors:*/
   .blue-gray {
     background-color: #445566 !important;

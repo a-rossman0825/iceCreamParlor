@@ -82,7 +82,6 @@ function addToCart(itemName) {
 
 function drawToCart() {
   let cartContent = '';
-  let total = 0;
   for(let i=0; i<menu.length; i++) {
     const item = menu[i];
     if (item.quantity > 0) {
@@ -100,8 +99,8 @@ function findTotal() {
     const item = menu[i];
     if (item.quantity > 0) {
       total += (item.price * item.quantity);
-      totalContent += `<p class="cart-content fw-bold medieval-font">Total: $${total}</p>`;
+      totalContent = `<p class="cart-content fw-bold medieval-font">Total: $${total}</p>`;
     }
   }
-  shoppingCartElm.innerHTML = totalContent;
-}
+  cartTotalElm.innerHTML = totalContent;
+};

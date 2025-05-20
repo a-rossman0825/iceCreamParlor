@@ -1,4 +1,6 @@
-document.getElementById('couponForm').addEventListener('submit', function(e) {
-  e.preventDefault();
-  document.getElementById('couponCode').classList.remove('d-none');
-});
+//document.getElementById('couponCode').classList.remove('d-none');
+
+let code = document.getElementById('couponCode');
+function revealCouponCode() {
+  code.classList.remove('d-none');
+}

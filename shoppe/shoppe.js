@@ -99,8 +99,26 @@ function findTotal() {
     const item = menu[i];
     if (item.quantity > 0) {
       total += (item.price * item.quantity);
-      totalContent = `<p class="cart-content fw-bold medieval-font">Total: $${total}</p>`;
+      totalContent = `<p class="cart-content fw-bold medieval-font">Total: $${total.toFixed(2)}</p>`;
     }
   }
   cartTotalElm.innerHTML = totalContent;
+};
+
+function checkCode() {
+  let userInput = document.getElementById('coupon-form').value;
+
+  if (userInput === 'ICE-GIANT') {
+    let discountTotalContent = ''
+    let total = 0;
+    for(let i=0; i<menu.length; i++) {
+      const item = menu[i];
+      if (item.quantity > 0) {
+        total += (item.price * item.quantity);
+        let discountTotal = total / 2;
+        discountTotalContent = `<p class="cart-content fw-bold medieval-font">Total: <s>$${total.toFixed(2)}</s>  $${discountTotal.toFixed(2)}</p>`;
+      }
+    }
+    cartTotalElm.innerHTML = discountTotalContent;
+  }
 };
